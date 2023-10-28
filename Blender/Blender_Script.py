@@ -10,7 +10,7 @@ bpy.ops.object.delete()
 
 # Path to CSV
 cd = os.path.dirname(bpy.data.filepath)
-csv_path = os.path.join(cd, 'Plot_Data', '2D_Isotropic_Beam_6.51E-06_3000' + '.csv')
+csv_path = os.path.join(cd, 'Plot_Data', '2D_Isotropic_Beam_5.08E-04_5048' + '.csv')
 
 # Open the CSV file and read the data into list
 csv_data = []
